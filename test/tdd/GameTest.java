@@ -27,4 +27,12 @@ class GameTest {
 	void test_vide() {
 		assertEquals(0,game.score());
 	}
+	
+	@Test
+	void test_20_fois_1() {
+		for(int i=0;i<20;i++) {
+			game.roll(1);
+		}
+		assertEquals(20,game.score());
+	}
 }

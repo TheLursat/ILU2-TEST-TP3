@@ -22,4 +22,9 @@ class GameTest {
 		assertEquals(0,game.score());
 	}
 
+	
+	@Test
+	void test_vide() {
+		assertEquals(0,game.score());
+	}
 }
